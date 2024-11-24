@@ -1,0 +1,47 @@
+2024-11-25 03:04:26,418 - INFO - Запрос главной страницы.
+2024-11-25 03:04:33,403 - DEBUG - Calling on_part_begin with no data
+2024-11-25 03:04:33,405 - DEBUG - Calling on_header_field with data[42:61]
+2024-11-25 03:04:33,405 - DEBUG - Calling on_header_value with data[63:113]
+2024-11-25 03:04:33,406 - DEBUG - Calling on_header_end with no data
+2024-11-25 03:04:33,406 - DEBUG - Calling on_header_field with data[115:127]
+2024-11-25 03:04:33,407 - DEBUG - Calling on_header_value with data[129:139]
+2024-11-25 03:04:33,407 - DEBUG - Calling on_header_end with no data
+2024-11-25 03:04:33,408 - DEBUG - Calling on_headers_finished with no data
+2024-11-25 03:04:33,409 - DEBUG - Calling on_part_data with data[143:44293]
+2024-11-25 03:04:33,411 - DEBUG - Calling on_part_end with no data
+2024-11-25 03:04:33,412 - DEBUG - Calling on_end with no data
+2024-11-25 03:04:33,413 - INFO - Получен файл для анализа: QiO011aq0E4.jpg
+2024-11-25 03:04:33,415 - INFO - Файл сохранен в temp_uploads\QiO011aq0E4.jpg
+2024-11-25 03:04:33,415 - INFO - Инициализация анализатора с API ключом: your-api-key
+2024-11-25 03:04:33,416 - INFO - Начало анализа изображения: temp_uploads\QiO011aq0E4.jpg
+2024-11-25 03:04:35,095 - DEBUG - Creating converter from 3 to 5
+2024-11-25 03:04:35,248 - INFO - Эмоции на изображении успешно проанализированы.
+2024-11-25 03:04:35,248 - INFO - Доминирующая эмоция: neutral
+2024-11-25 03:04:35,249 - INFO - Запрос к Gemini API с промптом: Я проанализировал изображение. Доминирующая эмоция...
+2024-11-25 03:04:35,253 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-11-25 03:04:36,318 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent?key=your-api-key HTTP/11" 400 None
+2024-11-25 03:04:36,319 - ERROR - Ошибка Gemini API: 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+2024-11-25 03:04:36,321 - INFO - Временный файл temp_uploads\QiO011aq0E4.jpg удален.
+2024-11-25 03:04:36,323 - INFO - Отправка результата анализа.

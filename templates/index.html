@@ -52,13 +52,14 @@
         <h2>Анализ фото</h2>
         <div class="upload-container">
             <div class="upload-area" id="dropZone" onclick="triggerFileInput()">
-                <i class="fas fa-cloud-upload-alt"></i>
-                <p>Перетащите фото сюда или нажмите для выбора</p>
-                <input type="file" id="fileInput" accept="image/*" hidden onchange="handleFileSelect(event)">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Перетащите фото сюда или нажмите для выбора</p>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <img id="previewImage" style="display: none; max-width: 100%; margin-top: 20px;" />
             </div>
             <div class="result-container" id="resultContainer">
                 <div class="image-preview">
-                    <img id="previewImage" src="" alt="" hidden>
+
                 </div>
                 <div class="emotions-result" id="emotionsResult"></div>
             </div>
@@ -115,6 +116,6 @@
         </div>
     </footer>
 
-    <script src="/static/script.js"></script>
+    <script src="/static/main.js"></script>
 </body>
 </html>
