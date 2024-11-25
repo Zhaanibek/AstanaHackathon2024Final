@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат анализа</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #8e44ad;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li strong {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            color: #7f8c8d;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .status {
+            text-align: center;
+            background-color: #27ae60;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .error-status {
+            background-color: #e74c3c;
+        }
+
+        .explanation {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #dcdcdc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Результат анализа</h1>
+        {% if result %}
+            <h2>Эмоции:</h2>
+            <ul>
+                {% for emotion, value in result.emotions.items() %}
+                    <li><strong>{{ emotion }}</strong>: {{ value }}%</li>
+                {% endfor %}
+            </ul>
+            <h3>Результаты объяснения от Gemini:</h3>
+            <p class="explanation">{{ result.gemini_response }}</p>
+
+            {% if result.email_status %}
+                <div class="status">
+                    <h3>{{ result.email_status }}</h3>
+                </div>
+            {% endif %}
+        {% else %}
+            <p>Анализ не дал результатов.</p>
+        {% endif %}
+    </div>
+
+</body>
+</html>
