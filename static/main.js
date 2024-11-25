@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultContainer = document.getElementById('resultContainer');
     const emotionsResult = document.getElementById('emotionsResult');
     const resultImage = document.getElementById('resultImage');
+    const errorMessage = document.getElementById('errorMessage');
 
     dropZone.addEventListener('click', () => {
         fileInput.click();
@@ -68,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then((response) => response.json())
         .then((data) => {
             if (data.gemini_response) {
-                emotionsResult.innerHTML = `Эмоции: ${data.gemini_response}`;
+                emotionsResult.innerHTML = formatGeminiResponse(data.gemini_response);
                 resultImage.src = previewImage.src;
             } else {
                 showError(data.message || "Произошла ошибка при анализе изображения.");
@@ -79,7 +80,54 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    function formatGeminiResponse(text) {
+        // Разбиваем текст на секции по двойным звездочкам
+        const sections = text.split(/\*\*\*|\*\*/);  // Разделяем как по **, так и по ***
+
+        // Форматируем текст, сохраняя структуру абзацев
+        let formattedText = sections.map((section, index) => {
+            // Если это заголовок (нечетный индекс)
+            if (index % 2 === 1) {
+                return `<h3 class="section-title">${section}</h3>`;
+            }
+            // Форматируем обычный текст, разбивая на абзацы
+            return section.split('\n')
+                .filter(paragraph => paragraph.trim() !== '')
+                .map(paragraph => `<p>${paragraph.trim()}</p>`)
+                .join('');
+        }).join('');
+
+        return `
+            <div class="emotions-analysis">
+                ${formattedText}
+            </div>
+            <style>
+                .emotions-analysis {
+                    font-family: Arial, sans-serif;
+                    line-height: 1.6;
+                    color: #2c3e50;
+                    background: #f8f9fa;
+                    padding: 20px;
+                    border-radius: 8px;
+                }
+                .section-title {
+                    color: #2c3e50;
+                    margin: 20px 0 16px 0;
+                    padding-bottom: 8px;
+                    border-bottom: 2px solid #e9ecef;
+                }
+                p {
+                    margin: 12px 0;
+                }
+                .emotions-analysis > p:first-child {
+                    margin-top: 0;
+                }
+            </style>
+        `;
+    }
+
     function showError(message) {
-        alert(message);
+        errorMessage.textContent = message;
+        errorMessage.style.display = 'block';
     }
 });
