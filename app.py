@@ -125,7 +125,7 @@ async def analyze_image(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, f)
     logger.info(f"Файл сохранен в {image_path}")
 
-    API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBZ1P73TqceCvS-0uYUhaZ8Qb7KtGoakuE")
+    API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCiTNGZ_RtRfoBZrRSEnkXQSXwinciRpts")
     analyzer = EmotionAnalyzer(API_KEY)
 
     result = analyzer.analyze_image_emotion(image_path)

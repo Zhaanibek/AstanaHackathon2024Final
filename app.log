@@ -3144,3 +3144,348 @@
 
 2024-11-25 12:14:00,725 - INFO - Временный файл temp_uploads\Img10.jpg удален.
 2024-11-25 12:14:00,725 - INFO - Отправка результата анализа.
+2024-11-27 15:07:46,588 - INFO - Запрос главной страницы.
+2024-11-27 15:10:18,348 - DEBUG - Calling on_part_begin with no data
+2024-11-27 15:10:18,352 - DEBUG - Calling on_header_field with data[42:61]
+2024-11-27 15:10:18,352 - DEBUG - Calling on_header_value with data[63:107]
+2024-11-27 15:10:18,352 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:10:18,352 - DEBUG - Calling on_header_field with data[109:121]
+2024-11-27 15:10:18,360 - DEBUG - Calling on_header_value with data[123:133]
+2024-11-27 15:10:18,360 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:10:18,360 - DEBUG - Calling on_headers_finished with no data
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[137:90303]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[90304:166203]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[166204:262144]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[0:44259]
+2024-11-27 15:10:18,364 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[44260:113787]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[113788:198057]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[198058:249220]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[249221:257148]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[257149:262144]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:16975]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,404 - DEBUG - Calling on_part_data with data[16976:103706]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[103707:137750]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[137751:210857]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[210858:242993]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[242994:262144]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:74949]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[74950:83050]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[83051:142147]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[142148:172828]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[172829:196179]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_data with data[196180:251488]
+2024-11-27 15:10:18,411 - DEBUG - Calling on_part_end with no data
+2024-11-27 15:10:18,411 - DEBUG - Calling on_end with no data
+2024-11-27 15:10:18,427 - INFO - Получен файл для анализа: Img10.jpg
+2024-11-27 15:10:18,427 - INFO - Файл сохранен в temp_uploads\Img10.jpg
+2024-11-27 15:10:18,427 - INFO - Инициализация анализатора с API ключом: AIzaSyBZ1P73TqceCvS-0uYUhaZ8Qb7KtGoakuE
+2024-11-27 15:10:18,427 - INFO - Начало анализа изображения: temp_uploads\Img10.jpg
+2024-11-27 15:10:29,853 - DEBUG - Creating converter from 3 to 5
+2024-11-27 15:10:30,201 - INFO - Ответ от DeepFace: [{'emotion': {'angry': 0.35810451954603195, 'disgust': 0.0003763800350498059, 'fear': 7.313051819801331, 'happy': 60.45524477958679, 'sad': 0.012131686526117846, 'surprise': 28.9966881275177, 'neutral': 2.8644073754549026}, 'dominant_emotion': 'happy', 'region': {'x': 1504, 'y': 2140, 'w': 50, 'h': 50, 'left_eye': None, 'right_eye': None}, 'face_confidence': 0.97}]
+2024-11-27 15:10:30,201 - INFO - Эмоции на изображении успешно проанализированы.
+2024-11-27 15:10:30,201 - INFO - Доминирующая эмоция: happy
+2024-11-27 15:10:30,201 - INFO - Запрос к Gemini API с промптом: Я проанализировал изображение. Доминирующая эмоция...
+2024-11-27 15:10:30,298 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-11-27 15:10:31,363 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBZ1P73TqceCvS-0uYUhaZ8Qb7KtGoakuE HTTP/1.1" 429 None
+2024-11-27 15:10:31,375 - ERROR - Ошибка Gemini API: 429 - {
+  "error": {
+    "code": 429,
+    "message": "Quota exceeded for quota metric 'Generate Content API requests per minute' and limit 'GenerateContent request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:1041089596594'.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "RATE_LIMIT_EXCEEDED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "quota_limit_value": "0",
+          "service": "generativelanguage.googleapis.com",
+          "quota_location": "us-east7",
+          "quota_limit": "GenerateContentRequestsPerMinutePerProjectPerRegion",
+          "consumer": "projects/1041089596594",
+          "quota_metric": "generativelanguage.googleapis.com/generate_content_requests"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Request a higher quota limit.",
+            "url": "https://cloud.google.com/docs/quotas/help/request_increase"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+2024-11-27 15:10:31,375 - INFO - Временный файл temp_uploads\Img10.jpg удален.
+2024-11-27 15:10:31,375 - INFO - Отправка результата анализа.
+2024-11-27 15:12:54,657 - INFO - Запрос главной страницы.
+2024-11-27 15:12:58,575 - DEBUG - Calling on_part_begin with no data
+2024-11-27 15:12:58,575 - DEBUG - Calling on_header_field with data[42:61]
+2024-11-27 15:12:58,575 - DEBUG - Calling on_header_value with data[63:107]
+2024-11-27 15:12:58,575 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:12:58,575 - DEBUG - Calling on_header_field with data[109:121]
+2024-11-27 15:12:58,590 - DEBUG - Calling on_header_value with data[123:133]
+2024-11-27 15:12:58,590 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:12:58,590 - DEBUG - Calling on_headers_finished with no data
+2024-11-27 15:12:58,590 - DEBUG - Calling on_part_data with data[137:16384]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:207851]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[207852:262144]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:126653]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[126654:130903]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[130904:186669]
+2024-11-27 15:12:58,593 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[186670:262144]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[0:105538]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[105539:241391]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[241392:258573]
+2024-11-27 15:12:58,600 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[258574:262126]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[262127:262144]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[0:116131]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[116132:126957]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[126958:234046]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_data with data[234047:235104]
+2024-11-27 15:12:58,606 - DEBUG - Calling on_part_end with no data
+2024-11-27 15:12:58,606 - DEBUG - Calling on_end with no data
+2024-11-27 15:12:58,606 - INFO - Получен файл для анализа: Img10.jpg
+2024-11-27 15:12:58,606 - INFO - Файл сохранен в temp_uploads\Img10.jpg
+2024-11-27 15:12:58,606 - INFO - Инициализация анализатора с API ключом: AIzaSyC4UE0JeRhkTtIMlSoAFvNfcBZkk_5c4vM
+2024-11-27 15:12:58,606 - INFO - Начало анализа изображения: temp_uploads\Img10.jpg
+2024-11-27 15:13:07,481 - DEBUG - Creating converter from 3 to 5
+2024-11-27 15:13:07,748 - INFO - Ответ от DeepFace: [{'emotion': {'angry': 0.35810451954603195, 'disgust': 0.00037638021694874624, 'fear': 7.313055545091629, 'happy': 60.45527458190918, 'sad': 0.012131692346883938, 'surprise': 28.996655344963074, 'neutral': 2.864406816661358}, 'dominant_emotion': 'happy', 'region': {'x': 1504, 'y': 2140, 'w': 50, 'h': 50, 'left_eye': None, 'right_eye': None}, 'face_confidence': 0.97}]
+2024-11-27 15:13:07,748 - INFO - Эмоции на изображении успешно проанализированы.
+2024-11-27 15:13:07,748 - INFO - Доминирующая эмоция: happy
+2024-11-27 15:13:07,748 - INFO - Запрос к Gemini API с промптом: Я проанализировал изображение. Доминирующая эмоция...
+2024-11-27 15:13:07,764 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-11-27 15:13:08,842 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyC4UE0JeRhkTtIMlSoAFvNfcBZkk_5c4vM HTTP/1.1" 429 None
+2024-11-27 15:13:08,842 - ERROR - Ошибка Gemini API: 429 - {
+  "error": {
+    "code": 429,
+    "message": "Quota exceeded for quota metric 'Generate Content API requests per minute' and limit 'GenerateContent request limit per minute for a region' of service 'generativelanguage.googleapis.com' for consumer 'project_number:1041089596594'.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "RATE_LIMIT_EXCEEDED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "quota_metric": "generativelanguage.googleapis.com/generate_content_requests",
+          "quota_limit": "GenerateContentRequestsPerMinutePerProjectPerRegion",
+          "quota_location": "us-east7",
+          "quota_limit_value": "0",
+          "service": "generativelanguage.googleapis.com",
+          "consumer": "projects/1041089596594"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Request a higher quota limit.",
+            "url": "https://cloud.google.com/docs/quotas/help/request_increase"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+2024-11-27 15:13:08,842 - INFO - Временный файл temp_uploads\Img10.jpg удален.
+2024-11-27 15:13:08,842 - INFO - Отправка результата анализа.
+2024-11-27 15:13:59,828 - INFO - Запрос главной страницы.
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_begin with no data
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_field with data[42:61]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_value with data[63:107]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_field with data[109:121]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_value with data[123:133]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_header_end with no data
+2024-11-27 15:14:04,833 - DEBUG - Calling on_headers_finished with no data
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_data with data[137:15878]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_data with data[15879:32675]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,833 - DEBUG - Calling on_part_data with data[32676:72803]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[72804:97981]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[97982:124805]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[124806:139113]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[139114:151838]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[151839:262144]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:75863]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[75864:152002]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[152003:241098]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[241099:262144]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:129452]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[129453:177417]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[177418:188700]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[188701:192029]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[192030:246214]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[246215:258972]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,849 - DEBUG - Calling on_part_data with data[258973:262144]
+2024-11-27 15:14:04,865 - DEBUG - Calling on_part_data with data[0:200959]
+2024-11-27 15:14:04,865 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-27 15:14:04,865 - DEBUG - Calling on_part_data with data[200960:251488]
+2024-11-27 15:14:04,865 - DEBUG - Calling on_part_end with no data
+2024-11-27 15:14:04,865 - DEBUG - Calling on_end with no data
+2024-11-27 15:14:04,865 - INFO - Получен файл для анализа: Img10.jpg
+2024-11-27 15:14:04,865 - INFO - Файл сохранен в temp_uploads\Img10.jpg
+2024-11-27 15:14:04,865 - INFO - Инициализация анализатора с API ключом: AIzaSyCiTNGZ_RtRfoBZrRSEnkXQSXwinciRpts
+2024-11-27 15:14:04,865 - INFO - Начало анализа изображения: temp_uploads\Img10.jpg
+2024-11-27 15:14:12,735 - DEBUG - Creating converter from 3 to 5
+2024-11-27 15:14:12,958 - INFO - Ответ от DeepFace: [{'emotion': {'angry': 0.35810451954603195, 'disgust': 0.00037638021694874624, 'fear': 7.313055545091629, 'happy': 60.45527458190918, 'sad': 0.012131692346883938, 'surprise': 28.996655344963074, 'neutral': 2.864406816661358}, 'dominant_emotion': 'happy', 'region': {'x': 1504, 'y': 2140, 'w': 50, 'h': 50, 'left_eye': None, 'right_eye': None}, 'face_confidence': 0.97}]
+2024-11-27 15:14:12,958 - INFO - Эмоции на изображении успешно проанализированы.
+2024-11-27 15:14:12,958 - INFO - Доминирующая эмоция: happy
+2024-11-27 15:14:12,958 - INFO - Запрос к Gemini API с промптом: Я проанализировал изображение. Доминирующая эмоция...
+2024-11-27 15:14:12,973 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-11-27 15:14:19,845 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCiTNGZ_RtRfoBZrRSEnkXQSXwinciRpts HTTP/1.1" 200 None
+2024-11-27 15:14:19,845 - INFO - Ответ от Gemini получен: 200
+2024-11-27 15:14:19,845 - INFO - Ответ от Gemini: Анализ изображения солдата показал доминирующую эмоцию "счастье" (60.46%), но присутствуют и другие, противоречивые сигналы.  Это указывает на потенциально сложную и неоднозначную ситуацию, требующую дальнейшего исследования для предотвращения несчастных случаев.  Разберем вероятности каждой эмоции в контексте военной службы:
+
+* **Happy (60.46%):**  Высокая вероятность счастья может означать несколько вещей:  солдат чувствует себя комфортно и уверенно в данный момент, возможно,  находится в хорошем настроении из-за личных причин (письмо из дома, предстоящий отпуск) или успешного завершения задания.  Однако,  в армейской среде излишнее счастье может быть сигналом небрежности или недостаточной осознанности рисков.  Солдат может быть переуверен в себе и пренебрегать мерами предосторожности.
+
+* **Surprise (29.00%):**  Значительная вероятность удивления указывает на неожиданное событие. Это может быть как позитивное (например, неожиданная помощь), так и негативное (внезапная атака, поломка оборудования).  Важно понять контекст, вызвавший удивление.
+
+* **Fear (7.31%):** Небольшая, но заметная вероятность страха указывает на подсознательное беспокойство или тревогу.  Это может быть связано с предстоящим заданием, опасениями за безопасность, или стрессом от службы.  Даже низкий процент страха в сочетании с другими эмоциями требует внимания.
+
+* **Angry (0.36%), Disgust (0.00%), Sad (0.01%), Neutral (2.86%):**  Низкие вероятности этих эмоций указывают, что они вряд ли играют значительную роль в текущем состоянии солдата.  Однако,  их присутствие все равно следует учитывать в контексте.
+
+
+**Интерпретация и дальнейшие действия:**
+
+Высокое сочетание "счастья" и "удивления"  требует тщательной оценки контекста.  Необходимо выяснить:
+
+* **Что произошло непосредственно перед фотографированием?**  Какое задание выполнял солдат?  Были ли неожиданные обстоятельства?
+* **Какова общая атмосфера на изображении?**  Окружение (место, оборудование, другие люди) может многое рассказать.
+* **Есть ли какие-либо другие данные о солдате?**  Его история службы, психологическое состояние, текущее задание – все это важно для полной картины.
+
+**Рекомендации для предотвращения несчастных случаев:**
+
+* **Дополнительный анализ:**  Необходимо провести более глубокий анализ изображения, возможно, с использованием более продвинутых методов распознавания эмоций.
+* **Собеседование:**  Поговорите с солдатом, чтобы выяснить его эмоциональное состояние и понять контекст, в котором было сделано изображение.
+* **Оцените уровень подготовки и осознанности солдата:**  Убедитесь, что солдат должным образом подготовлен и понимает риски, связанные с его заданием.
+* **Внедрение систем раннего предупреждения:**  Разработайте систему мониторинга, которая поможет выявлять потенциальные проблемы с эмоциональным состоянием солдат.
+
+
+В целом, анализ показывает неоднозначную картину эмоционального состояния солдата.  Только комплексный подход, включающий  анализ контекста и прямую коммуникацию, позволит получить полное представление о ситуации и принять меры для предотвращения возможных несчастных случаев.
+
+2024-11-27 15:14:19,845 - INFO - Временный файл temp_uploads\Img10.jpg удален.
+2024-11-27 15:14:19,845 - INFO - Отправка результата анализа.
+2024-11-28 09:51:33,468 - INFO - Запрос главной страницы.
+2024-11-28 09:51:52,337 - DEBUG - Calling on_part_begin with no data
+2024-11-28 09:51:52,345 - DEBUG - Calling on_header_field with data[42:61]
+2024-11-28 09:51:52,345 - DEBUG - Calling on_header_value with data[63:107]
+2024-11-28 09:51:52,345 - DEBUG - Calling on_header_end with no data
+2024-11-28 09:51:52,346 - DEBUG - Calling on_header_field with data[109:121]
+2024-11-28 09:51:52,347 - DEBUG - Calling on_header_value with data[123:133]
+2024-11-28 09:51:52,347 - DEBUG - Calling on_header_end with no data
+2024-11-28 09:51:52,347 - DEBUG - Calling on_headers_finished with no data
+2024-11-28 09:51:52,347 - DEBUG - Calling on_part_data with data[137:17042]
+2024-11-28 09:51:52,348 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,349 - DEBUG - Calling on_part_data with data[17043:33955]
+2024-11-28 09:51:52,349 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,352 - DEBUG - Calling on_part_data with data[33956:57803]
+2024-11-28 09:51:52,352 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,352 - DEBUG - Calling on_part_data with data[57804:262144]
+2024-11-28 09:51:52,356 - DEBUG - Calling on_part_data with data[0:262144]
+2024-11-28 09:51:52,358 - DEBUG - Calling on_part_data with data[0:94873]
+2024-11-28 09:51:52,359 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,359 - DEBUG - Calling on_part_data with data[94874:188700]
+2024-11-28 09:51:52,361 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,361 - DEBUG - Calling on_part_data with data[188701:214580]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[214581:221628]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[221629:262144]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:19701]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[19702:74949]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[74950:96737]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[96738:122702]
+2024-11-28 09:51:52,362 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,369 - DEBUG - Calling on_part_data with data[122703:123967]
+2024-11-28 09:51:52,369 - DEBUG - Calling on_part_data with data[0:1]
+2024-11-28 09:51:52,369 - DEBUG - Calling on_part_data with data[123968:251488]
+2024-11-28 09:51:52,370 - DEBUG - Calling on_part_end with no data
+2024-11-28 09:51:52,370 - DEBUG - Calling on_end with no data
+2024-11-28 09:51:52,370 - INFO - Получен файл для анализа: Img10.jpg
+2024-11-28 09:51:52,370 - INFO - Файл сохранен в temp_uploads\Img10.jpg
+2024-11-28 09:51:52,370 - INFO - Инициализация анализатора с API ключом: AIzaSyCiTNGZ_RtRfoBZrRSEnkXQSXwinciRpts
+2024-11-28 09:51:52,376 - INFO - Начало анализа изображения: temp_uploads\Img10.jpg
+2024-11-28 09:52:04,257 - DEBUG - Creating converter from 3 to 5
+2024-11-28 09:52:04,761 - INFO - Ответ от DeepFace: [{'emotion': {'angry': 0.35810451954603195, 'disgust': 0.00037638021694874624, 'fear': 7.313055545091629, 'happy': 60.45527458190918, 'sad': 0.012131692346883938, 'surprise': 28.996655344963074, 'neutral': 2.864406816661358}, 'dominant_emotion': 'happy', 'region': {'x': 1504, 'y': 2140, 'w': 50, 'h': 50, 'left_eye': None, 'right_eye': None}, 'face_confidence': 0.97}]
+2024-11-28 09:52:04,761 - INFO - Эмоции на изображении успешно проанализированы.
+2024-11-28 09:52:04,761 - INFO - Доминирующая эмоция: happy
+2024-11-28 09:52:04,761 - INFO - Запрос к Gemini API с промптом: Я проанализировал изображение. Доминирующая эмоция...
+2024-11-28 09:52:04,832 - DEBUG - Starting new HTTPS connection (1): generativelanguage.googleapis.com:443
+2024-11-28 09:52:12,355 - DEBUG - https://generativelanguage.googleapis.com:443 "POST /v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCiTNGZ_RtRfoBZrRSEnkXQSXwinciRpts HTTP/1.1" 200 None
+2024-11-28 09:52:12,359 - INFO - Ответ от Gemini получен: 200
+2024-11-28 09:52:12,359 - INFO - Ответ от Gemini: Анализ изображения солдата показал доминирующую эмоцию "счастье" (60.46%), что на первый взгляд может показаться неожиданным в армейском контексте, где ожидаются более нейтральные или напряженные эмоции.  Однако, сочетание "счастья" с высокой вероятностью "удивления" (29%) и небольшой долей "страха" (7.31%) требует внимательного анализа и интерпретации в контексте предотвращения несчастных случаев.
+
+Возможные интерпретации:
+
+* **Ситуативная радость:**  Солдат, возможно, испытывает радость от успешного завершения задачи, преодоления трудности или просто позитивного момента в напряженной обстановке.  Удивление может быть связано с неожиданностью этого успеха или позитивной новостью.  Небольшой процент страха может быть остаточным эффектом предыдущего стресса или опасений по поводу будущих задач.
+
+* **Притворство/маскировка:**  Эмоция "счастье" может быть поверхностной и маскировать другие, более глубокие эмоции, такие как страх или стресс, которые солдат не хочет демонстрировать. Удивление может быть реакцией на неожиданную проверку или ситуацию.
+
+* **Неполная картина:**  Анализ изображений может быть несовершенным.  Он не учитывает контекст, физическое состояние солдата, его личную историю и другие факторы, влияющие на эмоциональное состояние.  Возможно, алгоритм неверно интерпретировал некоторые выражения лица.
+
+* **Выгорание:**  Иногда чрезмерное напряжение и стресс могут вызывать неадекватную эмоциональную реакцию, включая  непривычное "счастье" как механизм защиты или отключение от реальности.
+
+**В контексте предотвращения несчастных случаев:**
+
+Высокая вероятность "удивления" и небольшая – "страха" требуют дальнейшего расследования.  Необходимо учитывать:
+
+* **Контекст изображения:**  Где и когда было сделано фото?  Что делал солдат в этот момент?
+* **Дополнительная информация:**  Как себя ведет солдат в целом?  Есть ли признаки стресса, усталости или эмоционального истощения?  Проводились ли с ним беседы?
+* **Потенциальные риски:**  Связано ли это "счастье" с рискованным поведением или принятием необдуманных решений?
+
+
+В заключение, анализ эмоций по изображению – это лишь один из инструментов.  Для предотвращения несчастных случаев необходим комплексный подход, включающий  регулярные беседы с солдатами, мониторинг их физического и психологического состояния, а также оценку условий службы.  Изображение лишь даёт отправную точку для дальнейшего исследования.  Не следует полагаться исключительно на данные автоматического анализа эмоций.
+
+2024-11-28 09:52:12,363 - INFO - Временный файл temp_uploads\Img10.jpg удален.
+2024-11-28 09:52:12,364 - INFO - Отправка результата анализа.
